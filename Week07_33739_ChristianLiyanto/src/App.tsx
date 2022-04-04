@@ -69,7 +69,7 @@ const App: React.FC = () => (
           <Route exact path="/tabs/Meet" component={MeetTabs} />
           <Route path="/mail/:mailId" component={MailDetail} />
           <Route path="/settings" component={Settings} />
-          <Redirect exact from="/" to="/tabs" />
+          <Redirect to="/tabs" />
         </IonRouterOutlet>
       </FriendsContextProvider>
     </IonReactRouter>

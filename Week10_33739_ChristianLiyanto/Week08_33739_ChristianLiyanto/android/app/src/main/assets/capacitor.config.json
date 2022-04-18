@@ -1,0 +1,6 @@
+{
+	"appId": "com.christianliyanto.ionic.memories",
+	"appName": "Memories",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
